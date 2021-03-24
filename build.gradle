@@ -2,6 +2,8 @@ apply from: "$rootDir/gradle/envConfig.gradle"
 apply from: "$rootDir/gradle/versioning.gradle"
 apply plugin: 'sonar-runner'
 
+
+//test51-tanger1
 sonarRunner {
     sonarProperties {
         property 'sonar.projectName', 'todo'
