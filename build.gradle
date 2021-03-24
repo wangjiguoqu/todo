@@ -4,6 +4,7 @@ apply plugin: 'sonar-runner'
 
 
 //test51-tanger1
+//test51-tangl
 sonarRunner {
     sonarProperties {
         property 'sonar.projectName', 'todo'
